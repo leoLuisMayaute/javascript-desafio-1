@@ -1,7 +1,7 @@
-let tablaDeMultiplicar = 2;
-let resultado;
+let number = prompt("Tabla de multiplicar de : ");
+let tablaDeMultiplicar;
 
-for (let i = 0; i <= 10; i++){
-    resultado = tablaDeMultiplicar * i;
-    console.log(`${tablaDeMultiplicar} x ${i} es igual a ${resultado}`);
+for (let i = 1; i <= 12; i++){
+    tablaDeMultiplicar = number * i;
+    document.write(`${number} x ${i} es igual a ${tablaDeMultiplicar} <br>`);
 }
